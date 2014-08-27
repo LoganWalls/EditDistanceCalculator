@@ -1,0 +1,37 @@
+p, div, h1{
+	text-align: center;
+}
+
+#path_table{
+	display: none;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td{
+	margin: 0.5em;
+	border: 1px solid black;
+	height: 2.5em;
+	width: 2.5em;
+}
+
+#info_container{
+	float: right;
+	background-color: #E6E6E6;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+p{
+	width: 40em;
+}
+
+.zeroCell{
+	background-color: gray;
+}
+
+.wordCell{
+	background-color: #E6E6E6;
+}

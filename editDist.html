@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+	<head>
+		<link href="editDist.css" rel="stylesheet" type="text/css"/>
+		<script src="editDist.js"></script>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>Levenshtein Distance Calculator</title>
+	</head>
+
+	<body>
+		<h1>Levenshtein Distance Calculator</h1>
+		
+		<div id="info_container">
+			<p>
+				This calculator calculates the <a href="http://en.wikipedia.org/wiki/Levenshtein_distance">Levenshtein Distance</a> between two words.
+			</p>
+			<p>
+				Please enter a word in each of the fields to the left. The calculator will display the Levenshtein Distance, and a table of the distances between all permutations of substrings from the two words.
+			</p>
+		</div>
+		<div>
+		  	<table id="path_table">
+		  	</table>
+		  	<div id = "input_box">
+		  		<label>First Word<input type="text" id="string1"></input></label>
+		  		<label>Second Word<input type="text" id="string2"></input></label>
+		  		<button id="calculate_button">Calculate</button>
+		  	</div>
+		</div>
+	</body>
+</html>
